@@ -7,10 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document wenny</title>
 
+   <!--css internal-->
+   <style>
+    main {
+        background-color: lightgreen;
+    }
+   </style>
+
+     <!--css external-->
+     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <!--ini line css-->
+    <header onclick="showAlert()"
+    style="background-color: lightblue; display: flex;">
+                <td><h1>Sudah Malam atau</h1></td>
+                <td><h1>Sudah Tau</h1></td>
+    </header>
     
+   <main>
+    <p>Ini Udah Jam Berapa</p>
+   </main>
+
+<footer>
+    <span>Waktunya Tidur Heyy</span>
+</footer>
+    <!--Javascript Internal-->
+    <script>
+        function showAlert() {
+             alert("TURU DEK! Udah Jam 00.46");
+
+        }
+       
+    </script>
 </body>
 
 </html>
